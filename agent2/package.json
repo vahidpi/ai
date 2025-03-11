@@ -1,0 +1,19 @@
+{
+  "name": "agent2",
+  "version": "1.0.0",
+  "description": "Node.js, npm Libraries openai dotenv",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lowdb": "^7.0.1",
+    "openai": "^4.86.2",
+    "ora": "^8.2.0",
+    "uuid": "^11.1.0",
+    "zod": "^3.24.2"
+  }
+}

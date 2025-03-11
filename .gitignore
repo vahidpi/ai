@@ -172,3 +172,50 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+
+#TS
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+pids
+logs
+results
+tmp
+
+
+public/css/main.css
+
+coverage
+
+sercrets.ts
+
+# Dependency directory
+bower_components
+
+node_modules
+dist
+.idea/
+secrets.ts
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+# ignore yarn.lock
+yarn.lock

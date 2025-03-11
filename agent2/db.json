@@ -1,0 +1,80 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "tell me about the weather",
+      "id": "1f488b20-e55b-4198-9ad0-fa3dd4669a57",
+      "createdAt": "2025-03-11T20:27:16.620Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_qzHph7uRuQH90Qixpdlf9Ibw",
+          "type": "function",
+          "function": {
+            "name": "weather",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "c234a7cf-a62d-4546-8eac-e10089023d91",
+      "createdAt": "2025-03-11T20:27:17.584Z"
+    },
+    {
+      "role": "tool",
+      "content": "very cold. -17deg",
+      "tool_call_id": "call_qzHph7uRuQH90Qixpdlf9Ibw",
+      "id": "40247c1e-44d3-4f6d-90e8-f0360b41bf54",
+      "createdAt": "2025-03-11T20:27:17.586Z"
+    },
+    {
+      "role": "user",
+      "content": "tell me about the weather",
+      "id": "1d876458-9f1e-44c3-a4fe-d6acd1e1bfc7",
+      "createdAt": "2025-03-11T20:30:11.591Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The weather is currently very cold, with a temperature of -17 degrees Celsius.",
+      "refusal": null,
+      "annotations": [],
+      "id": "826404e0-db8f-4e6a-aa8c-9c38fe8a6924",
+      "createdAt": "2025-03-11T20:30:12.587Z"
+    },
+    {
+      "role": "user",
+      "content": "tell me about the weather exactly now",
+      "id": "d3aa1c15-26cf-42b8-85a3-0dc552882024",
+      "createdAt": "2025-03-11T20:31:07.451Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_IhitnoFeRx67CPMZtPQXmTEv",
+          "type": "function",
+          "function": {
+            "name": "weather",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "2506f273-2d04-4050-94a6-7324f4a5146f",
+      "createdAt": "2025-03-11T20:31:08.275Z"
+    },
+    {
+      "role": "tool",
+      "content": "very cold. -17deg",
+      "tool_call_id": "call_IhitnoFeRx67CPMZtPQXmTEv",
+      "id": "5328e974-b298-41fb-ac44-117e5b06ea40",
+      "createdAt": "2025-03-11T20:31:08.277Z"
+    }
+  ]
+}
